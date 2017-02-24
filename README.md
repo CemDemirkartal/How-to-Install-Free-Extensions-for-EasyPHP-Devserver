@@ -4,8 +4,7 @@ These updates created without EasyPHP Warehouse.
 
 ## Update PHP
 
-1. Download PHP
-   [Download from here](http://windows.php.net/download)
+1. [Download PHP](http://windows.php.net/download)
    
 2. Create folder in "eds-binaries/php" for new PHP
  * Name should be like "php7016vc14x86"
@@ -32,8 +31,7 @@ These updates created without EasyPHP Warehouse.
 
 ## Update Xdebug and Start
 
-1. Download Xdebug for your PHP version
-   [Download from here](https://xdebug.org/download.php)
+1. [Download Xdebug](https://xdebug.org/download.php) for your PHP version
 
 2. Copy xdebug dll to PHP folder
 
