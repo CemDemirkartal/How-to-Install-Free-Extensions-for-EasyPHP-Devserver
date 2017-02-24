@@ -6,17 +6,19 @@ These updates created without EasyPHP Warehouse.
 
 1. Download PHP
    [Download from here](http://windows.php.net/download)
+   
+2. Create folder in "eds-binaries/php" for new PHP
 
-2. Copy these files from any installed PHP binaries from "eds-binaries/php" to new PHP binary
+3. Copy these files from any installed PHP from "eds-binaries/php" to new PHP
 
  * eds-app-actions.php
  * eds-app-dashboard.php
  * eds-app-launch.exe
  * eds-app-settings.php
 
-3. Edit "eds-app-settings.php" for PHP version
+4. Edit "eds-app-settings.php" for PHP version
 
-4. Copy "php.ini" from current php of EasyPHP.
+5. Copy "php.ini" from current php of EasyPHP.
  * Tested in PHP 5.6.X, 7.0.X and 7.1.X
 
 ## Update Xdebug and Start
@@ -24,9 +26,16 @@ These updates created without EasyPHP Warehouse.
 1. Download Xdebug for your PHP version
    [Download from here](https://xdebug.org/download.php)
 
-2. Edit "eds-app-settings.php" for Xdebug version which you downloaded
+2. Copy xdebug dll to PHP folder
 
-3. Edit "php.ini"
+3. Edit "eds-app-settings.php" for Xdebug version and for file which you downloaded
+
+```PHP
+	'xdebug_version'			=>	"2.5.0",
+	'xdebug_dll'				=>	"php_xdebug-2.5.0-7.0-vc14.dll"
+```
+
+4. Edit "php.ini"
 
 * zend_extension = "" will be created by EasyPHP directly. (Tested)
 * xdebug.default_enable=1 to start extension
@@ -63,10 +72,15 @@ xdebug.profiler_output_dir="**fullpath**\eds-binaries\xdebug\profiler"
 xdebug.profiler_output_name="cachegrind.out.%s.%t"
 ```
 ## To Do List
-1. Auto PHP version by folder name
-2. Xdebug Manager for EasyPHP
-3. and more...
+1. Xdebug Manager for EasyPHP
+2. and more...
 
 ## Others
+#### Auto name for PHP by folder name
+
+Edit "eds-app-settings.php" by
+```PHP
+	'app_version'				=>	str_replace('_', ' ', basename(__DIR__)),
+```
 #### Xdebug Profiler Viewer
    - [WinCacheGrid](https://github.com/ceefour/wincachegrind)
