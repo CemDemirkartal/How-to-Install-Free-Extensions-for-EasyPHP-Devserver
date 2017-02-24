@@ -35,6 +35,7 @@ These updates created without EasyPHP Warehouse.
 2. Copy xdebug dll to PHP folder
 
 3. Edit "eds-app-settings.php" for Xdebug version and for file which you downloaded
+
 ```PHP
 	'xdebug_version'			=>	"2.5.0",
 	'xdebug_dll'				=>	"php_xdebug-2.5.0-7.0-vc14.dll"
