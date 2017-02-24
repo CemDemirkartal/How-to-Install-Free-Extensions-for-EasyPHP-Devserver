@@ -17,7 +17,7 @@ These updates created without EasyPHP Warehouse.
 3. Edit "eds-app-settings.php" for PHP version
 
 4. Copy "php.ini" from current php of EasyPHP.
-* Tested in PHP 5.6.X, 7.0.X and 7.1.X
+ * Tested in PHP 5.6.X, 7.0.X and 7.1.X
 
 ## Update Xdebug and Start
 
