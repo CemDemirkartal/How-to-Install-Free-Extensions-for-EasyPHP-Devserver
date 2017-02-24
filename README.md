@@ -43,11 +43,11 @@ These updates created without EasyPHP Warehouse.
 
 4. Edit "php.ini"
 
-* zend_extension = "" will be created by EasyPHP directly. (Tested)
-* xdebug.default_enable=1 to load extension
-* xdebug.auto_trace=1 to start trace
-* xdebug.profiler_enable=1 to start profiler
-* **fullpath** : Full path to folder, for example "C:\Program Files\EasyPHP-Devserver-16.1"
+ * zend_extension = "" will be created by EasyPHP directly. (Tested)
+ * xdebug.default_enable=1 to load extension
+ * xdebug.auto_trace=1 to start trace
+ * xdebug.profiler_enable=1 to start profiler
+ * **fullpath** : Full path to folder, for example "C:\Program Files\EasyPHP-Devserver-16.1"
 
 ```
 zend_extension = ""
