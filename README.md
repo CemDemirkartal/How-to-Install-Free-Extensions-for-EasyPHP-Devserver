@@ -22,8 +22,8 @@ These updates created without EasyPHP Warehouse.
  ```PHP
 	'app_version'				=>	"7.0.16 x86",
 	'app_version_nb'			=>	"7.0.16",
-	'app_build'				=>	"VC14",
-	'app_mode'				=>	"x86 (32-bit)",
+	'app_build'					=>	"VC14",
+	'app_mode'					=>	"x86 (32-bit)",
 	'app_architecture'			=>	"x86",
  ```
 
