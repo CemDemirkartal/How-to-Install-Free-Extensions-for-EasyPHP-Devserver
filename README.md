@@ -2,7 +2,7 @@
 
 These updates created without EasyPHP Warehouse.
 
-## Update PHP
+## PHP
 
 1. [Download PHP](http://windows.php.net/download)
    
@@ -29,7 +29,7 @@ These updates created without EasyPHP Warehouse.
 5. Copy "php.ini" from current php of EasyPHP. (Tested in PHP 5.6.X and 7.0.X)
 
 
-## Update Xdebug and Start
+## Xdebug
 
 1. [Download Xdebug](https://xdebug.org/download.php) for your PHP version
 
