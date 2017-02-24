@@ -8,6 +8,7 @@ These updates created without EasyPHP Warehouse.
    [Download from here](http://windows.php.net/download)
    
 2. Create folder in "eds-binaries/php" for new PHP
+ * Folder name should be in latin alphabet without special characters and without space.
 
 3. Copy these files from any installed PHP from "eds-binaries/php" to new PHP
 
@@ -18,7 +19,7 @@ These updates created without EasyPHP Warehouse.
 
 4. Edit "eds-app-settings.php" for new PHP version
 
- * (Optional) Auto name by folder name
+ * (Optional) Auto name by folder name (This is for '7.1.2_x86' type folder names)
 ```PHP
 	'app_version'				=>	str_replace('_', ' ', basename(__DIR__)),
 ```
@@ -34,7 +35,6 @@ These updates created without EasyPHP Warehouse.
 2. Copy xdebug dll to PHP folder
 
 3. Edit "eds-app-settings.php" for Xdebug version and for file which you downloaded
-
 ```PHP
 	'xdebug_version'			=>	"2.5.0",
 	'xdebug_dll'				=>	"php_xdebug-2.5.0-7.0-vc14.dll"
@@ -43,7 +43,8 @@ These updates created without EasyPHP Warehouse.
 4. Edit "php.ini"
 
 * zend_extension = "" will be created by EasyPHP directly. (Tested)
-* xdebug.default_enable=1 to start extension
+* xdebug.default_enable=1 to load extension
+* xdebug.auto_trace=1 to start trace
 * xdebug.profiler_enable=1 to start profiler
 * **fullpath** : Full path to folder, for example "C:\Program Files\EasyPHP-Devserver-16.1"
 
@@ -70,7 +71,7 @@ xdebug.trace_options=0
 xdebug.trace_format=0
 xdebug.trace_output_dir="**fullpath**\eds-binaries\xdebug\trace"
 xdebug.trace_output_name="trace.%t"
-xdebug.profiler_enable=1
+xdebug.profiler_enable=0
 xdebug.profiler_append=1
 xdebug.profiler_enable_trigger=1
 xdebug.profiler_output_dir="**fullpath**\eds-binaries\xdebug\profiler"
