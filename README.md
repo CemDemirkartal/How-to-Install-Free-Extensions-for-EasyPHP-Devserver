@@ -9,10 +9,10 @@ These updates created without EasyPHP Warehouse.
 
 2. Copy these files from any installed PHP binaries from "eds-binaries/php" to new PHP binary
 
-* eds-app-actions.php
-* eds-app-dashboard.php
-* eds-app-launch.exe
-* eds-app-settings.php
+ * eds-app-actions.php
+ * eds-app-dashboard.php
+ * eds-app-launch.exe
+ * eds-app-settings.php
 
 3. Edit "eds-app-settings.php" for PHP version
 
@@ -67,5 +67,5 @@ xdebug.profiler_output_name="cachegrind.out.%s.%t"
 2. and more...
 
 ## Others
-### Xdebug Profiler viewer
+#### Xdebug Profiler Viewer
    - [WinCacheGrid](https://github.com/ceefour/wincachegrind)
