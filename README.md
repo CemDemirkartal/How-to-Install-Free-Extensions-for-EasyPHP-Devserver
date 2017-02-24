@@ -19,8 +19,16 @@ These updates created without EasyPHP Warehouse.
 
 4. Edit "eds-app-settings.php" for new PHP version
 
-5. Copy "php.ini" from current php of EasyPHP.
- * Tested in PHP 5.6.X and 7.0.X
+ ```PHP
+	'app_version'				=>	"7.0.16 x86",
+	'app_version_nb'			=>	"7.0.16",
+	'app_build'				=>	"VC14",
+	'app_mode'				=>	"x86 (32-bit)",
+	'app_architecture'			=>	"x86",
+ ```
+
+5. Copy "php.ini" from current php of EasyPHP. (Tested in PHP 5.6.X and 7.0.X)
+
 
 ## Update Xdebug and Start
 
@@ -31,10 +39,10 @@ These updates created without EasyPHP Warehouse.
 
 3. Edit "eds-app-settings.php" for Xdebug version and for file which you downloaded
 
-```PHP
+ ```PHP
 	'xdebug_version'			=>	"2.5.0",
 	'xdebug_dll'				=>	"php_xdebug-2.5.0-7.0-vc14.dll"
-```
+ ```
 
 4. Edit "php.ini"
 
@@ -42,9 +50,8 @@ These updates created without EasyPHP Warehouse.
  * xdebug.default_enable=1 to load extension
  * xdebug.auto_trace=1 to start trace
  * xdebug.profiler_enable=1 to start profiler
- * **fullpath** : Full path to folder, for example "C:\Program Files\EasyPHP-Devserver-16.1"
-
-```
+ 
+ ```
 zend_extension = ""
 xdebug.default_enable=1
 xdebug.remote_enable=1
@@ -65,17 +72,20 @@ xdebug.collect_return=1
 xdebug.auto_trace=0
 xdebug.trace_options=0
 xdebug.trace_format=0
-xdebug.trace_output_dir="**fullpath**\eds-binaries\xdebug\trace"
+xdebug.trace_output_dir="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\xdebug\trace"
 xdebug.trace_output_name="trace.%t"
 xdebug.profiler_enable=0
 xdebug.profiler_append=1
 xdebug.profiler_enable_trigger=1
-xdebug.profiler_output_dir="**fullpath**\eds-binaries\xdebug\profiler"
+xdebug.profiler_output_dir="C:\Program Files (x86)\EasyPHP-Devserver-16.1\eds-binaries\xdebug\profiler"
 xdebug.profiler_output_name="cachegrind.out.%s.%t"
-```
+ ```
+ 
+ 
 ## To Do List
 1. Xdebug Manager for EasyPHP
 2. and more...
+
 
 ## Others
 #### Xdebug Profiler Viewer
