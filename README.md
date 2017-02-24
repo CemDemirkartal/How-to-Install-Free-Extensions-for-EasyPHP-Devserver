@@ -19,13 +19,8 @@ These updates created without EasyPHP Warehouse.
 
 4. Edit "eds-app-settings.php" for new PHP version
 
- * (Optional) Auto name by folder name (This is for '7.1.2_x86' type folder names)
-```PHP
-	'app_version'				=>	str_replace('_', ' ', basename(__DIR__)),
-```
-
 5. Copy "php.ini" from current php of EasyPHP.
- * Tested in PHP 5.6.X, 7.0.X and 7.1.X
+ * Tested in PHP 5.6.X and 7.0.X
 
 ## Update Xdebug and Start
 
