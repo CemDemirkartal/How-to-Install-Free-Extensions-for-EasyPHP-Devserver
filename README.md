@@ -16,7 +16,12 @@ These updates created without EasyPHP Warehouse.
  * eds-app-launch.exe
  * eds-app-settings.php
 
-4. Edit "eds-app-settings.php" for PHP version
+4. Edit "eds-app-settings.php" for new PHP version
+
+ * (Optional) Auto name by folder name
+```PHP
+	'app_version'				=>	str_replace('_', ' ', basename(__DIR__)),
+```
 
 5. Copy "php.ini" from current php of EasyPHP.
  * Tested in PHP 5.6.X, 7.0.X and 7.1.X
@@ -76,11 +81,5 @@ xdebug.profiler_output_name="cachegrind.out.%s.%t"
 2. and more...
 
 ## Others
-#### Auto name for PHP by folder name
-
-Edit "eds-app-settings.php" by
-```PHP
-	'app_version'				=>	str_replace('_', ' ', basename(__DIR__)),
-```
 #### Xdebug Profiler Viewer
    - [WinCacheGrid](https://github.com/ceefour/wincachegrind)
