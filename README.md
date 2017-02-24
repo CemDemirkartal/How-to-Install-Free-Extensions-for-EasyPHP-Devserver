@@ -1,4 +1,4 @@
-# Install Free Extensions for EasyPHP Devserver v16
+# How to Install Free Extensions for EasyPHP Devserver v16
 
 These updates created without EasyPHP Warehouse.
 
