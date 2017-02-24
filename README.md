@@ -8,7 +8,7 @@ These updates created without EasyPHP Warehouse.
    [Download from here](http://windows.php.net/download)
    
 2. Create folder in "eds-binaries/php" for new PHP
- * Folder name should be in latin alphabet without special characters and without space.
+ * Name should be like "php7016vc14x86"
 
 3. Copy these files from any installed PHP from "eds-binaries/php" to new PHP
 
