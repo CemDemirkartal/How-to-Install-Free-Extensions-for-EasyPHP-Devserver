@@ -63,8 +63,9 @@ xdebug.profiler_output_dir="**fullpath**\eds-binaries\xdebug\profiler"
 xdebug.profiler_output_name="cachegrind.out.%s.%t"
 ```
 ## To Do List
-1. Xdebug Manager for EasyPHP
-2. and more...
+1. Auto PHP version by folder name
+2. Xdebug Manager for EasyPHP
+3. and more...
 
 ## Others
 #### Xdebug Profiler Viewer
