@@ -4,7 +4,8 @@ These updates created without EasyPHP Warehouse.
 
 ## PHP
 
-1. [Download PHP](http://windows.php.net/download)
+1. [Download PHP (Thread Safe Version)](http://windows.php.net/download)
+  
    
 2. Create folder in "eds-binaries/php" for new PHP
  * Name should be like "php7016vc14x86"
